@@ -23,7 +23,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL_mixer.h"
+#include "SDL2/SDL_mixer.h"
 
 #include "textscreen.h"
 #include "m_config.h"

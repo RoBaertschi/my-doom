@@ -20,8 +20,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL.h"
-#include "SDL_opengl.h"
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_opengl.h"
 
 #ifdef _WIN32
 #ifndef WIN32_LEAN_AND_MEAN

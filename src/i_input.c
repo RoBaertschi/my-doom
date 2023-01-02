@@ -18,8 +18,8 @@
 
 #include <string.h>
 
-#include "SDL.h"
-#include "SDL_keycode.h"
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_keycode.h"
 
 #include "doomkeys.h"
 #include "doomtype.h"

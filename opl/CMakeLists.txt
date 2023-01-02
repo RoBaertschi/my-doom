@@ -12,7 +12,7 @@ add_library(opl STATIC
 target_include_directories(opl
                            INTERFACE "."
                            PRIVATE "${CMAKE_CURRENT_BINARY_DIR}/../")
-target_link_libraries(opl SDL2::SDL2)
+target_link_libraries(opl SDL2)
 if(ENABLE_SDL2_MIXER)
-    target_link_libraries(opl SDL2::mixer)
+    target_link_libraries(opl SDL2_mixer)
 endif()
